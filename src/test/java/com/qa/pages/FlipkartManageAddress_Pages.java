@@ -10,6 +10,7 @@ public class FlipkartManageAddress_Pages {
 	
 	@FindBy(xpath="//div[text()='My Profile']")              //MyProfile
 	WebElement MyProfile;
+	
 
 	public WebElement getMyProfile() {
 		return MyProfile;

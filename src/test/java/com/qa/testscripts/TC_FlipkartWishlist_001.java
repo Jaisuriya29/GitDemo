@@ -26,7 +26,7 @@ public class TC_FlipkartWishlist_001 extends TestBase  {
 		flipkart.getSearchTF().sendKeys("camera");
 		flipkart.getSearchTF().sendKeys(Keys.ENTER);
 		Thread.sleep(2000);
-		//flipkart.getProduct().click();
+		flipkart.getProduct().click();
 		
 		//flipkart.getcanonCam().click();
 		flipkart.getWishlistButton().click();
