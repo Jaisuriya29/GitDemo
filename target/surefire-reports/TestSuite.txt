@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 26.51 s <<< FAILURE! - in TestSuite
+Flipkart(com.qa.testscripts.TC_FlipkartWishlist_001)  Time elapsed: 6.441 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[3]/div[1]/div[2]/div[2]/div/div/div/a/div[1]/div[3]/div/svg/path"}
+  (Session info: MicrosoftEdge=97.0.1072.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'JAISURIYA', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [960364ebfdf5ed5bed61da830727a1fa, findElement {using=xpath, value=//*[@id="container"]/div/div[3]/div[1]/div[2]/div[2]/div/div/div/a/div[1]/div[3]/div/svg/path}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 97.0.1072.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59853}, msedge: {msedgedriverVersion: 97.0.1072.69 (2e09adf9a2322..., userDataDir: C:\Users\jaisu\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59853/devtoo..., se:cdpVersion: 97.0.1072.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 960364ebfdf5ed5bed61da830727a1fa
+	at com.qa.testscripts.TC_FlipkartWishlist_001.Flipkart(TC_FlipkartWishlist_001.java:33)
+
+Flipkart(com.qa.testscripts.TC_FlipkartWishlist_001)  Time elapsed: 0.008 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class='_2IX_2- VJZDxU']"}
+  (Session info: MicrosoftEdge=97.0.1072.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'JAISURIYA', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [960364ebfdf5ed5bed61da830727a1fa, findElement {using=xpath, value=//input[@class='_2IX_2- VJZDxU']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 97.0.1072.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59853}, msedge: {msedgedriverVersion: 97.0.1072.69 (2e09adf9a2322..., userDataDir: C:\Users\jaisu\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59853/devtoo..., se:cdpVersion: 97.0.1072.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 960364ebfdf5ed5bed61da830727a1fa
+	at com.qa.testscripts.TC_FlipkartWishlist_001.Flipkart(TC_FlipkartWishlist_001.java:22)
+
