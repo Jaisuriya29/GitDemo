@@ -10,6 +10,8 @@ public class TC_FlipkartManageAddress extends TestBase{
 		flipkart2.getpasswordTF().sendKeys("Password");
 		flipkart2.getlogInBtn().click();
 		Thread.sleep(4000);
+		System.out.println("hi");
+		System.out.println("hi1");
 		
 		WebElement ele= flipkart3.getMyAccount();  //MyAccount
 		act.moveToElement(ele).perform();

@@ -1,4 +1,4 @@
-/*package com.qa.testscripts;
+package com.qa.testscripts;
 
 	import org.testng.annotations.DataProvider;
 	import org.testng.annotations.Test;
@@ -32,5 +32,5 @@
 			return data;
 }
 
-	}*/
+	}
 
